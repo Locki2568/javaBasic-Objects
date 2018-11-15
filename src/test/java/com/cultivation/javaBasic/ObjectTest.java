@@ -146,7 +146,7 @@ class ObjectTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final String expected = new CallingAnotherCtor().getName();
+        final String expected = new CallingAnotherCtor("Untitled").getName();
         // --end-->
 
         assertEquals(expected, instance.getName());
